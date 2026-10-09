@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.py[cod]
+db.sqlite3
+.env
+media/
+staticfiles/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Local databases and uploads
+*.sqlite3
+media/
+staticfiles/
+
+# macOS
+.DS_Store

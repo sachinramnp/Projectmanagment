@@ -1,0 +1,2 @@
+// Shared frontend helpers. Server-rendered forms use Django CSRF protection.
+document.addEventListener('submit', e => { const form=e.target; if(form.dataset.confirm && !confirm(form.dataset.confirm)) e.preventDefault(); });
